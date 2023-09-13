@@ -1,0 +1,115 @@
+@media screen  {
+    .login-container {
+        padding: 10px;
+    }
+    input[type="submit"] {
+        padding: 8px 15px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* start- registrasi dan login*/
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #031825, #2980b9, rgb(90, 0, 90));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.placeholder{
+    font-size: smaller;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.container h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #752BEA;
+}
+.container label{
+    text-align: left;
+    color: #90caf9;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #752BEA;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    border: none;
+    background-color:#752BEA;
+    font-size: 18px;
+    color: #fafafa;
+    border-radius: 20px;
+}
+
+.social-login {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: small;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #7710ff;
+    padding: 5px;
+    background: #fdfbfb;
+}
+.logfoot{
+    text-align: center;
+    color: #fafafa;
+    font-size: smaller;
+    margin-top: 50px;
+
+}
+/* finish- registrasi dan login*/
+
+/*Tab Home*/
