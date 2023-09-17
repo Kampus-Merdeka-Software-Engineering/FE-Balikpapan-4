@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hotpink;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.informasi-pengiriman label {
+    display: block;
+    margin-top: 10px;
+}
+
+.informasi-pengiriman input[type="text"],
+.informasi-pengiriman textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ringkasan-pesanan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ringkasan-pesanan li {
+    margin-bottom: 5px;
+}
+
+.pembayaran label,
+.pembayaran select {
+    display: block;
+    margin-top: 10px;
+}
+
+.pembayaran select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.konfirmasi button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .informasi-pengiriman input[type="text"],
+    .informasi-pengiriman textarea,
+    .pembayaran select {
+        width: 100%;
+    }
+}
