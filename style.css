@@ -12,7 +12,7 @@
     outline: 0;
     font-family: 'Open Sans', sans-serif;
 }
-/* start- registrasi dan login*/
+/* start-registrasi dan login*/
 body{
     height: 100vh;
     background: linear-gradient(to right, #031825, #2980b9, rgb(90, 0, 90));
@@ -112,4 +112,3 @@ a {
 }
 /* finish- registrasi dan login*/
 
-/*Tab Home*/
