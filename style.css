@@ -221,7 +221,7 @@ body {
 
 .products .product-card {
   text-align: center;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--bg);
   padding: 2rem;
 }
 
@@ -234,9 +234,9 @@ body {
 .products .product-icons a {
   width: 4rem;
   height: 4rem;
-  color: var(--primary);
+  color: var(--bg);
   margin: 0.3rem;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--bg);
   border-radius: 30%;
   display: flex;
   justify-content: center;
@@ -265,6 +265,24 @@ body {
   text-decoration: line-through;
   font-weight: lighter;
   font-size: 1rem;
+}
+
+.scroll-bg {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.scroll-div {
+  width: 100%;
+  background: var(--primary);
+  height: 45rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  color: var(--bg);
+  padding: 20px;
 }
 
 /* Contact Section */
@@ -418,6 +436,64 @@ footer .credit a {
   color: var(--bg);
   margin-top: 1rem;
   padding: 1rem 1.6rem;
+}
+
+.modal .product-price span {
+  text-decoration: line-through;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+/* Modal Form */
+.modal-content form {
+  margin: 15px 5px;
+  width: 500px;
+  font-size: 16px;
+  height: auto;
+}
+
+.modal-container-form {
+  position: relative;
+  background-color: var(--bg);
+  color: var(--primary);
+  margin: 2% auto;
+  padding: 1.2rem;
+  border: 1px solid #fff;
+  width: 45%;
+  animation: animateModal 0.5s;
+  align-items: center;
+  height: fit-content;
+}
+
+.modal-content form h1 {
+  text-align: center;
+}
+
+.modal-content form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-content form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.modal-content form button {
+  background: var(--primary);
+  color: var(--bg);
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-content form button:hover {
+  background: #eee;
 }
 
 /* Media Queries */
