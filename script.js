@@ -40,9 +40,9 @@ document.querySelector(".modal .close-icon").onclick = (e) => {
   e.preventDefault();
 };
 
-// Klik Kirim
+// Klik Kirim Pesanan
 function sentWhatsapp() {
-  const phoneNumber = "+6285342426949";
+  const phoneNumber = "+6282377546685";
 
   const name = document.querySelector(".name").value;
   const eMail = document.querySelector(".eMail").value;
@@ -60,8 +60,7 @@ function sentWhatsapp() {
     `Judul Buku : +${title}+%0a` +
     `Jumlah : +${sum}+%0a` +
     `Alamat : +${address}+%0a` +
-    `Deskripsi : +${description}+%0a%0a` +
-    "This is an example of send HTML form data to WhatsApp";
+    `Deskripsi : +${description}+%0a%0a`;
 
   window.open(url, "_blank").focus();
 }
@@ -71,3 +70,20 @@ document.querySelector("#form-modal .close-icon").onclick = (e) => {
   formModal.style.display = "none";
   e.preventDefault();
 };
+
+// Klik Kirim Pesan
+function whatsApp() {
+  const phoneNumber = "+6285342426949";
+
+  const personName = document.querySelector(".person-name").value;
+  const message = document.querySelector(".message").value;
+
+  const url =
+    "https://wa.me/" +
+    phoneNumber +
+    "?text=" +
+    `Nama : +${personName}+%0a` +
+    `Pesan : +${message}+%0a%0a`;
+
+  window.open(url, "_blank").focus();
+}
