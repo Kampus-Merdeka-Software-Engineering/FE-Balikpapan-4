@@ -392,6 +392,7 @@ footer .credit a {
   border: 1px solid #fff;
   width: 80%;
   animation: animateModal 0.5s;
+  height: fit-content;
 }
 
 /* Modal Animation */
