@@ -15,17 +15,9 @@ document.addEventListener("click", function (e) {
 });
 
 // Modal Box
-const itemDetailModal = document.querySelector("#item-detail-modal");
-const itemDetailButtons = document.querySelectorAll(".item-detail-button");
+
 const formModal = document.querySelector("#form-modal");
 const formModalButtons = document.querySelectorAll(".form-button");
-
-itemDetailButtons.forEach((btn) => {
-  btn.onclick = (e) => {
-    itemDetailModal.style.display = "flex";
-    e.preventDefault();
-  };
-});
 
 formModalButtons.forEach((btn) => {
   btn.onclick = (e) => {
@@ -34,9 +26,142 @@ formModalButtons.forEach((btn) => {
   };
 });
 
+//
+
+const itemDetailModal1 = document.querySelector("#item-detail-modal1");
+const itemDetailButtons1 = document.querySelectorAll(".item-detail-button1");
+
+itemDetailButtons1.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal1.style.display = "flex";
+    e.preventDefault();
+  };
+});
+const itemDetailModal2 = document.querySelector("#item-detail-modal2");
+const itemDetailButtons2 = document.querySelectorAll(".item-detail-button2");
+
+itemDetailButtons2.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal2.style.display = "flex";
+    e.preventDefault();
+  };
+});
+const itemDetailModal3 = document.querySelector("#item-detail-modal3");
+const itemDetailButtons3 = document.querySelectorAll(".item-detail-button3");
+
+itemDetailButtons3.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal3.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+const itemDetailModal4 = document.querySelector("#item-detail-modal4");
+const itemDetailButtons4 = document.querySelectorAll(".item-detail-button4");
+
+itemDetailButtons4.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal4.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+const itemDetailModal5 = document.querySelector("#item-detail-modal5");
+const itemDetailButtons5 = document.querySelectorAll(".item-detail-button5");
+
+itemDetailButtons5.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal5.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+const itemDetailModal6 = document.querySelector("#item-detail-modal6");
+const itemDetailButtons6 = document.querySelectorAll(".item-detail-button6");
+
+itemDetailButtons6.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal6.style.display = "flex";
+    e.preventDefault();
+  };
+});
+const itemDetailModal7 = document.querySelector("#item-detail-modal7");
+const itemDetailButtons7 = document.querySelectorAll(".item-detail-button7");
+
+itemDetailButtons7.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal7.style.display = "flex";
+    e.preventDefault();
+  };
+});
+const itemDetailModal8 = document.querySelector("#item-detail-modal8");
+const itemDetailButtons8 = document.querySelectorAll(".item-detail-button8");
+
+itemDetailButtons8.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal8.style.display = "flex";
+    e.preventDefault();
+  };
+});
+const itemDetailModal9 = document.querySelector("#item-detail-modal9");
+const itemDetailButtons9 = document.querySelectorAll(".item-detail-button9");
+
+itemDetailButtons9.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal9.style.display = "flex";
+    e.preventDefault();
+  };
+});
+const itemDetailModal10 = document.querySelector("#item-detail-modal10");
+const itemDetailButtons10 = document.querySelectorAll(".item-detail-button10");
+
+itemDetailButtons10.forEach((btn) => {
+  btn.onclick = (e) => {
+    itemDetailModal10.style.display = "flex";
+    e.preventDefault();
+  };
+});
+
+//
 // Klik Tombol Close Detail Modal
-document.querySelector(".modal .close-icon").onclick = (e) => {
-  itemDetailModal.style.display = "none";
+document.querySelector(".modal .close-icon1").onclick = (e) => {
+  itemDetailModal1.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon2").onclick = (e) => {
+  itemDetailModal2.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon3").onclick = (e) => {
+  itemDetailModal3.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon4").onclick = (e) => {
+  itemDetailModal4.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon5").onclick = (e) => {
+  itemDetailModal5.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon6").onclick = (e) => {
+  itemDetailModal6.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon7").onclick = (e) => {
+  itemDetailModal7.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon8").onclick = (e) => {
+  itemDetailModal8.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon9").onclick = (e) => {
+  itemDetailModal9.style.display = "none";
+  e.preventDefault();
+};
+document.querySelector(".modal .close-icon10").onclick = (e) => {
+  itemDetailModal10.style.display = "none";
   e.preventDefault();
 };
 
