@@ -212,3 +212,31 @@ function whatsApp() {
 
   window.open(url, "_blank").focus();
 }
+
+async function dataBase() {
+  const nama = document.querySelector(".name").value;
+  const email = document.querySelector(".eMail").value;
+  const judul = document.querySelector(".title").value;
+  const jumlah = document.querySelector(".sum").value;
+  const alamat = document.querySelector(".address").value;
+  const deskripsi = document.querySelector(".description").value;
+
+  try {
+    const response = await fetch(`${API_BASE_URL}/books`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ nama, email, judul, jumlah, alamat, deskripsi }),
+    });
+    const data = await response.json();
+    if (data.success) {
+      alert(succes);
+    } else {
+      console.error("Error adding form:", data.message);
+    }
+  } catch (error) {
+    console.error("Error adding form:", error);
+  }
+  dataBase();
+}
