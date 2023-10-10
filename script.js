@@ -212,8 +212,9 @@ function whatsApp() {
 
   window.open(url, "_blank").focus();
 }
+const API_BASE_URL = "https://long-helmet-hen.cyclic.app";
 
-async function dataBase() {
+ async function dataBase() {
   const nama = document.querySelector(".name").value;
   const email = document.querySelector(".eMail").value;
   const judul = document.querySelector(".title").value;
